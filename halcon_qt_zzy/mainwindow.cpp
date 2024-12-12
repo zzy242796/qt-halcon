@@ -260,7 +260,7 @@ void MainWindow::closeEvent(QCloseEvent *event)
 void MainWindow::on_pushButton_1_video_clicked()
 {
     set_camera=ui->lineEdit_video1->text();
-    camera_video = "[1]" + set_camera;
+    camera_video = "[1] " + set_camera;
     QMessageBox::information(this,"提示","已添加外设摄像头:"+camera_video);
 }
 
