@@ -1,0 +1,1 @@
+由于halcon版本可能不同，请自行将halcon库对应的include文件和lib文件添加到相应位置。
